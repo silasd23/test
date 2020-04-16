@@ -1,0 +1,11 @@
+CREATE TABLE t_category (
+  Id_Category VARCHAR(50) PRIMARY KEY,
+  Category_Name VARCHAR(50),
+  Begin_Date VARCHAR(50), 
+  Control VARCHAR(50), 
+  End_Date VARCHAR(50) 
+);
+
+INSERT INTO t_category (Id_Category, Category_Name, Begin_Date,Control,End_Date) VALUES ('CAT0001', 'Senior manager', '21.02.2020', 'High','30.12.2999');
+INSERT INTO t_category (Id_Category, Category_Name, Begin_Date,Control,End_Date) VALUES ('CAT0002', 'Internal ', '21.02.2020', 'Low','30.12.2999');
+INSERT INTO t_category (Id_Category, Category_Name, Begin_Date,Control,End_Date) VALUES ('CAT0003', 'Conflict of intetest', '21.02.2020', 'Medium','30.12.2999');
